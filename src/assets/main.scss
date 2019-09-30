@@ -1,0 +1,47 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background: rgba(20, 33, 50);
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgba(225, 225, 225);
+}
+
+.gradient-button {
+  border-radius: 10px;
+  width: 130px;
+  font-weight: 500;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #fabb00 10%, #fea704 31%);
+  opacity: 0.9;
+  transition: .5s;
+
+  &:hover {
+    background-position: right center;
+    opacity: 1;
+  }
+}
+
+#submit {
+  border-radius: 10px;
+  width: 130px;
+  font-weight: 500;
+  padding: 8px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #fabb00 10%, #fea704 31%);
+  opacity: 0.9;
+  transition: .5s;
+
+  &:hover {
+    background-position: right center;
+    opacity: 1;
+  }
+}
